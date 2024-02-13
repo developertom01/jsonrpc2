@@ -2,9 +2,9 @@
 
 This package implements the `JSON-RPC` version 2.0 spec.
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/developertom01/json-rpc2.svg)](https://pkg.go.dev/github.com/developertom01/json-rpc2)
+[![Go Reference](https://pkg.go.dev/badge/github.com/developertom01/jsonrpc2.svg)](https://pkg.go.dev/github.com/developertom01/jsonrpc2)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Coverage Status](https://coveralls.io/repos/github/developertom01/json-rpc2/badge.svg?branch=main)](https://coveralls.io/github/developertom01/json-rpc2?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/developertom01/jsonrpc2/badge.svg?branch=main)](https://coveralls.io/github/developertom01/jsonrpc2?branch=main)
 
 ## Procedure signature
 
@@ -72,7 +72,7 @@ import (
  "fmt"
  "net/http"
 
- jsonrpc2 "github.com/developertom01/json-rpc2"
+ jsonrpc2 "github.com/developertom01/jsonrpc2"
 )
 
 type Arithmetic struct{}
