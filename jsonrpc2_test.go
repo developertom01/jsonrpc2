@@ -29,9 +29,13 @@ func (arith) ErrorMethod(ctx context.Context) (*int, error, *RpcErrorCode) {
 
 type testType struct{}
 
-func (testType) FuncCheck1() {}
+func (testType) FuncCheck1() {
+	//
+}
 
-func (testType) FuncCheck2(context.Context) {}
+func (testType) FuncCheck2(context.Context) {
+	//
+}
 
 // Insufficient Output
 func (testType) FuncCheck3(context.Context) (string, error) {
